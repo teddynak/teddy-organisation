@@ -1,0 +1,107 @@
+/* Custom Styles for TechBridge Community Bugema Website */
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 76px; /* Account for fixed navbar */
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+/* Page Header */
+.page-header {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+/* Cards */
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Navigation */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Buttons */
+.btn {
+    margin: 5px;
+}
+
+/* Footer */
+footer a {
+    text-decoration: none;
+}
+
+/* Form Styles */
+.form-control, .form-select {
+    margin-bottom: 15px;
+}
+
+/* Icons */
+.bi {
+    vertical-align: middle;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+        padding: 2rem 0;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .display-5 {
+        font-size: 1.75rem;
+    }
+    
+    .display-6 {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Section spacing */
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Text utilities */
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Primary color override */
+.bg-primary {
+    background-color: #667eea !important;
+}
+
+.btn-primary {
+    background-color: #667eea;
+    border-color: #667eea;
+}
+
+.btn-primary:hover {
+    background-color: #5568d3;
+    border-color: #5568d3;
+}
+
+.text-primary {
+    color: #667eea !important;
+}
+
